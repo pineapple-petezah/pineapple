@@ -1,8 +1,47 @@
-<style>
-body {
-    text-align: center;
-}
-</style>
+<html>
+<head>
+    <title>BrunysIXLWork</title>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="content">
+        <img src="/static/images/logo.png" class="center-image">
+        <p id="dynamicParagraph">gyatt</p>
+        <form id="uv-form">
+            <input id="uv-search-engine" value="https://www.google.com/search?q=%s" type="hidden"/>
+            <input id="uv-address" type="text" placeholder="Search Google or type an URL..." class="form__input"/>
+        </form>
+    </div>
 
-<h1>Making Things Better!</h1>
-<p>Be Back Soon....</p>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="/static/js/particles.js"></script>
+    <script src="/static/uv/uv.bundle.js" defer></script>
+    <script src="/static/uv/uv.config.js" defer></script>
+    <script src="/static/register-sw.js" defer></script>
+    <script src="/static/search.js" defer></script>
+    <script src="/static/index.js" defer></script>
+    <script>
+        const phrases = [
+            "B.I.W best unblocked games ever!",
+            "https://dsc.gg/bruny",
+            "Made by Brunys",
+            "Also try Jade Proxy!",
+            "still active despite being inactive for months ¯\\_(ツ)_/¯",
+            "Roblox should now work my eskibidi sigmets",
+            "IVE EDGED TO BRUNY -frogiee1",
+            "iris has voice revealed once -iris"
+        ];
+
+        const paragraph = document.getElementById('dynamicParagraph');
+
+        function changeText() {
+            const randomPhrase = phrases[Math.floor(Math.random() * phrases.length)];
+            paragraph.textContent = randomPhrase;
+        }
+
+        paragraph.addEventListener('click', changeText);
+        window.onload = changeText;
+    </script>
+</body>
+</html>

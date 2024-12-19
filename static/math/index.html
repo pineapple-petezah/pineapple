@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>BrunysIXLWork | Launcher</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/static/css/launcher.css">
+</head>
+
+<body>
+    <div class="tab-bar">
+        <span><a href="/"><h3><img src="/static/images/logo.png" alt="Image" class="left-image">BRUNYSIXLWORK</h3></a></span>
+        <div class="buttons">
+            <button onclick="goBack()"><i class="fa fa-arrow-left"></i></button>
+            <button onclick="goForward()"><i class="fa fa-arrow-right"></i></button>
+            <button onclick="refreshIframe()"><i class="fa fa-refresh"></i></button>
+            <button onclick="toggleFullscreen()"><i class="fa fa-expand"></i></button>
+        </div>
+    </div>
+
+    <div class="iframe-container">
+        <iframe id="proxyIframe" src="" allow="fullscreen"></iframe>
+    </div>
+
+    <script src="/static/js/iframe.js"></script>
+</body>
+</html>
