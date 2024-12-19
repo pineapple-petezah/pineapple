@@ -2,9 +2,9 @@
 A proxy service that helps you bypass restrictions yet has games and apps for you to mess around and have fun with.
 
 ## BrunysIXLWork Repo Stats
-<img src="https://img.shields.io/github/repo-size/brunyssite/BrunysIXLWork?style=for-the-badge&labelColor=%23000000&color=%231c1c1c">
-<img src="https://img.shields.io/github/stars/brunyssite/BrunysIXLWork?style=for-the-badge&labelColor=%23000000&color=%231c1c1c">
-<img src="https://img.shields.io/github/forks/brunyssite/BrunysIXLWork?style=for-the-badge&labelColor=000000&color=1c1c1c">
+<img src="https://img.shields.io/github/repo-size/brunysixlwork/BrunysIXLWork.github.io?style=for-the-badge&labelColor=%23000000&color=%231c1c1c">
+<img src="https://img.shields.io/github/stars/brunysixlwork/BrunysIXLWork.github.io?style=for-the-badge&labelColor=%23000000&color=%231c1c1c">
+<img src="https://img.shields.io/github/forks/brunysixlwork/BrunysIXLWork.github.io?style=for-the-badge&labelColor=000000&color=1c1c1c">
 
 ## BrunysIXLWork Purpose?
 We are mainly a proxy service to bypass all restrictions
