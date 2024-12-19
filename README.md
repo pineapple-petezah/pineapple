@@ -1,5 +1,5 @@
 # BrunysIXLWork
-A unblocked gaming site for you that self hosts over 120+ games from reliable sources.
+A proxy service that helps you bypass restrictions yet has games and apps for you to mess around and have fun with.
 
 ## BrunysIXLWork Repo Stats
 <img src="https://img.shields.io/github/repo-size/brunyssite/BrunysIXLWork?style=for-the-badge&labelColor=%23000000&color=%231c1c1c">
