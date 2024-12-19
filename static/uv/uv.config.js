@@ -1,6 +1,6 @@
 self.__uv$config = {
-    prefix: '/static/ixl/',
-    bare:'https://static.99.135.156.178.clients.your-server.de/bare/', 
+    prefix: '/static/tiw/',
+    bare:'https://brunysixlworkisgoatedfrfronbandongokszvycentralv2outnow.v2202412246404304352.megasrv.de/bare/', 
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/static/uv/uv.handler.js',
